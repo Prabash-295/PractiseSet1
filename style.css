@@ -1,3 +1,28 @@
 button{
   background-color: rgb(0,255,0);
 }
+#idforHeading{
+  text-align: center;
+  text-decoration: green wavy Overline;
+}
+#LoremPractise{
+  text-align: center;
+}
+#GoogleId{
+  text-decoration: none;
+}
+#Heading1{
+  font-weight: lighter;
+}
+#Heading2{
+  font-weight: 100;
+}
+#Heading3{
+  font-weight: bold;
+}
+#Heading4{
+  font-weight: 300;
+}
+#forFontFamily{
+  font-family: Arial, Helvetica, sans-serif;
+}
