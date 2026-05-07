@@ -26,3 +26,14 @@ button{
 #forFontFamily{
   font-family: Arial, Helvetica, sans-serif;
 }
+#parah1{
+  font-size: 20px;
+  line-height: normal;
+  text-transform: capitalize;
+}
+#parah2{
+  font-size: 30px;
+}
+#parah3{
+  font-size: 20px;
+}
