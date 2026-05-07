@@ -1,0 +1,16 @@
+*{
+  font-family: georgia;
+}
+#puttingHeadingInCenter{
+  text-align: center;
+  text-transform : capitalize;
+}
+#tnr{
+  font-family: 'Times New Roman', Times, serif;
+}
+#outerdiv{
+  font-size: 25px;
+}
+#innerdiv{
+  font-size: 10px;
+}
