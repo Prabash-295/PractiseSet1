@@ -37,3 +37,27 @@ button{
 #parah3{
   font-size: 20px;
 }
+#tfbh{
+  height: 200px;
+  width: 957px;
+  background-color: aquamarine;
+  border-width: 2px;
+  border-style: solid;
+  border-color:green;
+  text-align: center;
+  padding: 20px 30px 40px 50px;
+  margin-top: 30px;
+  
+}
+#tbfh2{
+  height: 50px;
+  width: 500px;
+  background-color: pink;
+  border: 2px rgb(100,155,0) dotted;  
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
