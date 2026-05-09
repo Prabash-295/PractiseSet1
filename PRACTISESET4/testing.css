@@ -1,0 +1,32 @@
+#divFirst{
+  background-color: pink;
+  display: inline;
+}
+button{
+  display: block;
+}
+#div1{
+  display: inline-block;
+  visibility: hidden;
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  margin: 25px;
+  padding: 25px;
+}
+#div2{
+  display: inline-block;
+  background-color: rgba(0,255,0,0.5);
+  height: 100px;
+  width: 100px;
+   margin: 25px;
+  padding: 25px;
+}
+#div3{
+  display: inline-block;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+   margin: 25px;
+  padding: 25px;
+}
