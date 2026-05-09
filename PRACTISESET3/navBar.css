@@ -1,0 +1,28 @@
+nav{
+  height: 60px;
+  width: 1400px;
+  padding-left: 25px;
+  background-color: #0f1111;
+  color: white;
+}
+#amzHeading{
+  font-size: 25px;
+  color: yellow;
+  padding-left: 20px;
+  padding-right: 200px;
+  text-decoration: none;
+}
+#acc{
+  padding-right: 200px;
+}
+#myca{
+  padding-right: 200px;
+}
+#cu{
+  padding-right: 200px;
+}
+#sch{
+  background-color: #f08804;
+  color: white;
+}
+
