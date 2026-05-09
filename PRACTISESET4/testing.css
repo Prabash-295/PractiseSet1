@@ -31,7 +31,7 @@ button{
 }
  #outer{
   height: 50vh;
-  width: 200px;
+  width: 60vw;
   background-color:red;
   font-size: 2rem;
  }
@@ -42,3 +42,26 @@ button{
   margin-left: 10%;
   font-size: 1em;
  }
+  div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+  }
+  #db1{
+    position: static;
+  }
+  #db2{
+    position: relative;
+    top: 15px;
+    left: 15px;
+  }
+  #db3{
+    position: absolute;
+    bottom:15px;
+  }
+  #db4{
+    position: sticky;
+    top: 10px;
+  }

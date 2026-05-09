@@ -1,0 +1,10 @@
+div{
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  background-image: url("hassam-ahmed.jpg");
+  background-size: cover;
+  position: fixed;
+  right: 0px;
+  top: 50px;
+}
