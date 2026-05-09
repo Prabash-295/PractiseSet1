@@ -7,7 +7,6 @@ button{
 }
 #div1{
   display: inline-block;
-  visibility: hidden;
   background-color: blue;
   height: 100px;
   width: 100px;
@@ -30,3 +29,16 @@ button{
    margin: 25px;
   padding: 25px;
 }
+ #outer{
+  height: 50vh;
+  width: 200px;
+  background-color:red;
+  font-size: 2rem;
+ }
+ #inner{
+  height: 50%;
+  width: 50vw;
+  background-color:green;
+  margin-left: 10%;
+  font-size: 1em;
+ }
