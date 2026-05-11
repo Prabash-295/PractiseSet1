@@ -1,0 +1,28 @@
+ul{
+  background-color: pink;
+  /* height: 100p; */
+  display: flex;
+  justify-content: space-evenly;
+}
+a{
+  text-decoration: none;
+  color: red; 
+  padding: center;
+}
+li{
+  list-style-type: none;
+}
+ #outer{
+  height: 500px;
+  width: 500px;
+  background-color:blue;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  /* align-content: center; */
+ }
+ #inner{
+  height: 100px;
+  width: 100px;
+  background-color:brown;
+ }
