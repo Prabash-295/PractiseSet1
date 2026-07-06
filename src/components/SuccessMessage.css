@@ -1,0 +1,23 @@
+.success-message-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px 24px;
+  background: rgba(0, 184, 148, 0.1);
+  border: 1px solid var(--success);
+  border-radius: var(--radius-sm);
+  margin-bottom: 24px;
+}
+
+.success-icon {
+  font-size: 1.3rem;
+  color: var(--success);
+  font-weight: 700;
+}
+
+.success-message-text {
+  font-size: 0.95rem;
+  color: var(--success);
+  font-weight: 500;
+}

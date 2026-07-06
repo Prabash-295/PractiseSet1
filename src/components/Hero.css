@@ -1,0 +1,247 @@
+.hero {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8f9fd 0%, #e8e5f9 50%, #fdf0f5 100%);
+  overflow: hidden;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--text-primary);
+}
+
+.hero-highlight {
+  display: block;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  max-width: 500px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: var(--transition);
+  border: 2px solid transparent;
+}
+
+.btn-lg {
+  padding: 14px 36px;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(108, 92, 231, 0.3);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-outline:hover {
+  background: var(--primary);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.btn-danger {
+  background: var(--danger);
+  color: white;
+  border-color: var(--danger);
+}
+
+.btn-danger:hover {
+  background: #d63031;
+  transform: translateY(-2px);
+}
+
+.btn-sm {
+  padding: 8px 18px;
+  font-size: 0.85rem;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 8px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-number {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.hero-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-illustration {
+  position: relative;
+  width: 350px;
+  height: 350px;
+}
+
+.shape {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.shape-1 {
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  top: 20px;
+  left: 20px;
+  opacity: 0.8;
+  animation: float 6s ease-in-out infinite;
+}
+
+.shape-2 {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(135deg, var(--secondary), #fab1a0);
+  bottom: 40px;
+  right: 20px;
+  opacity: 0.7;
+  animation: float 8s ease-in-out infinite reverse;
+}
+
+.shape-3 {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, var(--accent), #81ecec);
+  top: 60px;
+  right: 50px;
+  opacity: 0.6;
+  animation: float 7s ease-in-out infinite 1s;
+}
+
+.shape-4 {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, var(--warning), #ffeaa7);
+  bottom: 80px;
+  left: 40px;
+  opacity: 0.6;
+  animation: float 5s ease-in-out infinite 0.5s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 48px 0;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-stats {
+    gap: 24px;
+  }
+
+  .hero-illustration {
+    width: 250px;
+    height: 250px;
+  }
+
+  .shape-1 {
+    width: 120px;
+    height: 120px;
+  }
+
+  .shape-2 {
+    width: 80px;
+    height: 80px;
+  }
+
+  .shape-3 {
+    width: 60px;
+    height: 60px;
+  }
+
+  .shape-4 {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,134 @@
+.back-btn {
+  margin-bottom: 24px;
+}
+
+.event-details {
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.event-details-banner {
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+}
+
+.event-details-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.event-details-category {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: var(--primary);
+  color: white;
+  padding: 6px 18px;
+  border-radius: 20px;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.event-details-content {
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.event-details-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.event-details-club {
+  font-size: 1.05rem;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.event-details-description {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.event-details-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 24px;
+  background: var(--bg);
+  border-radius: var(--radius);
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.info-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.info-value {
+  font-size: 1rem;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.event-details-seats {
+  padding: 20px;
+  background: var(--bg);
+  border-radius: var(--radius);
+}
+
+.event-details-seats h4 {
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.event-details-actions {
+  display: flex;
+  gap: 16px;
+  padding-top: 8px;
+}
+
+@media (max-width: 768px) {
+  .event-details-banner {
+    height: 220px;
+  }
+
+  .event-details-content {
+    padding: 24px 20px;
+  }
+
+  .event-details-title {
+    font-size: 1.5rem;
+  }
+
+  .event-details-info {
+    grid-template-columns: 1fr;
+  }
+
+  .event-details-actions {
+    flex-direction: column;
+  }
+
+  .event-details-actions .btn {
+    width: 100%;
+  }
+}
